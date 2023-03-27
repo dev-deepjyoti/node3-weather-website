@@ -35,8 +35,8 @@ response.json().then((data)=>{
         message1Text.textContent=data.location
         message2Text.textContent=data.forecast
 
-        console.log(data.location)
-        console.log(data.forecast)
+        // console.log(data.location)
+        // console.log(data.forecast)
     }
 })
 })
